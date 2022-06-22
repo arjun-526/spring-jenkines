@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringJenkinesApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringApplication.class);
-	
+
 	@PostConstruct
 	public void intt() {
 		logger.info("Application Started....");
 	}
-	
+
 	public static void main(String[] args) {
 		logger.info("Application executed...");
 		SpringApplication.run(SpringJenkinesApplication.class, args);
