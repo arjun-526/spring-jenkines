@@ -13,7 +13,7 @@ public class SpringJenkinesApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringApplication.class);
 
 	@PostConstruct
-	public  intt() {
+	public void intt() {
 		logger.info("Application Started....");
 	}
 
